@@ -2,8 +2,6 @@
 
 #include <math.h>
 
-#include "SSE2NEON.h"
-
 static inline __m128  _mm_isinf_ps(__m128 x)
 {
 	__m128 SIGN_MASK = _mm_set1_ps(-0.0);
